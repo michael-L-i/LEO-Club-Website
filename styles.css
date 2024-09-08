@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fcfcfc;
+}
+img {
+    width: 800px;
+    height: auto;
+    margin: 25px 0;
+    display: block;
+    margin-left: auto; 
+    margin-right: 100px
+}
+#image-container {
+    flex: 1;
+    position: "relative";
+    margin-left: 450px;
+    
+}
+#title-section {
+    position: fixed;
+    width: 425px;
+    height: 800px;
+}
+
+.styled-button {
+    background-color: #808080; /* Gray background */
+    border: none; /* Remove default border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Button padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    cursor: pointer; /* Pointer on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.styled-button:hover {
+    background-color: #4b4a4a; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.styled-button:active {
+    background-color: #808080; /* Even darker green when clicked */
+    transform: scale(0.98); /* Slightly shrink on click */
+}
