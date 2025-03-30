@@ -5,7 +5,7 @@
  * simply add new images to the folder and increment numImages each time
 */
 
-var numImages = 43;
+var numImages = 51;
 const imagesRev = [];
 for (var i = 1; i <= numImages; i++) {
     imagesRev.push("image" + i + ".png");
