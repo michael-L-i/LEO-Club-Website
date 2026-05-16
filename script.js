@@ -1,6 +1,6 @@
 // Load all images from the images folder in reverse order (newest first)
 const gallery = document.getElementById('gallery');
-const totalImages = 60;
+const totalImages = 65;
 
 // Loop in reverse order: 60, 59, 58, ... 1
 for (let i = totalImages; i >= 1; i--) {
